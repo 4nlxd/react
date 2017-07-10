@@ -1,0 +1,74 @@
+ *{margin:0;padding:0;}
+  .out{width:100vw;height:100vh;overflow:hidden;}
+  .slide1,.slide2,.slide3,.slide4{width:100vw;height:100vh;}
+  .div1{width:100vw;height:100vh;background:rgba(0,0,0,.8);
+  position:absolute;z-index:-2;}
+  .img1{width:95vw;height:95vh;margin:2.5vh 2.5vw;position:absolute;
+  z-index:-1;}
+  p{height:4vh;font-family:"楷体";}
+  .ap1{margin-top:.3rem}
+  .ap2{margin-top:.1rem}
+  .ap3{margin-top:.1rem}
+  .img2{height:4vh;margin-left:7vw;}
+  .img3{height:2.5vh;margin-left:7vw;}
+  .img4{height:2.5vh;margin-left:7vw;}
+  .img5{width:90vw;height:4rem;margin-left:.25rem}
+  .div2{float:left;width:30vw;}
+  .div3{float:left;width:60vw;}
+  .op1{width:60vw;height:15vh;font-size:.8rem;line-height:2.5rem;
+  font-weight:600;font-family:"微软雅黑";}
+  .op2{width:60vw;height:10vh;font-size:.37rem;line-height:1rem}
+  .div4{width:88vw;height:0.03rem;background:#2f304a;
+  margin-top:2.7rem;margin-left:5vw}
+  .op3{font-size:.55rem;width:6rem;text-align:center;}
+  .op4{font-size:.28rem;margin-left:.26rem}
+  .op5{font-size:.23rem;padding:0 .3rem}
+  #img0 {
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	bottom: .5rem;
+	left: 2.7rem;
+	animation: jiantou 1s linear infinite;
+	z-index:1000;
+}
+  
+  #music {
+	color:#000;
+	font-size:.5rem;
+	position: fixed;
+	top: .2rem;
+	right: .5rem;
+	z-index: 999;
+	animation: zhuan 5s linear infinite;
+}
+  /*================第二张图=======================*/
+ .img6{width:90vw;height:2rem;margin-left:.25rem}
+  .op6{font-size:.2rem;padding:0 .3rem;font-family: "微软雅黑";}
+  .op7{font-size:.5rem;margin-top:.8rem;margin-left:.4rem}
+  .div5{width:40vw;float:left;font-size:.2rem;padding:.2rem 0 0 .27rem;}
+  .img7{width:48vw;height:2rem;float:left;padding:.3rem 0.2rem 0 0;} 
+    /*================第三张图=======================*/
+  .op8{font-size:.4rem;width:6rem;text-align:center;}
+  .op9{width:40vw;height:1.8rem;float:left;font-size:.23rem;padding:0 0 0.1rem .3rem;}
+  .img8{width:48vw;height:1.8rem;float:left;padding:0 0.2rem .1rem 0;} 
+  .img9{width:90vw;height:1.7rem;margin-left:.25rem}
+  .img10{width:48vw;height:2rem;float:left;padding:.5rem 0 0 .25rem;} 
+  .op10{width:40vw;height:2rem;float:left;font-size:.24rem;padding:0.5rem 0.2rem 0 0.1rem;}
+    /*================第四张图=======================*/
+   .op11{font-size:1rem;width:6rem;text-align:center;margin-top:.3rem;
+   font-family:"楷体";}
+   .op12{font-size:.5rem;width:6rem;text-align:center;margin-top:.5rem;
+   font-family:"楷体";}
+   .img11{width:2.5rem;height:2.5rem;margin-left:2rem;margin-top:.5rem}
+   .div6{margin-left:1.3rem}
+   .div6 a input{width:3.5rem;height:.6rem;background:#2F304A;color:#fff;
+   border-radius:.2rem;font-size:.3rem}
+
+
+
+
+
+
+
+

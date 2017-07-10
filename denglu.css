@@ -1,0 +1,29 @@
+*{margin:0;padding:0;}
+body,html{height:100%}
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	height: 1.3rem;
+	line-height: 1.3rem;
+	background: #13aeff;
+	font-size: .5rem;
+	text-align: center;
+	color:#fff;
+}
+
+p{font-size:.5rem;margin:1rem .8rem;}
+p input{width:6rem;height:.9rem;border-radius:.2rem; outline:0;font-size:.4rem;}
+
+#ipt3{width:.4rem;height:.4rem}
+#a1{float:right;text-decoration: none;}
+
+#op1{margin-left:1.5rem;}
+#op1 a input{background:#13aeff;color:#fff;width:7rem;height:1rem;} 
+
+#op2 a{float:right;text-decoration: none;margin-right:.4rem}
+
+
+#div1{width:100vw;height:100vh;background: url(1.jpeg) no-repeat top/cover;}

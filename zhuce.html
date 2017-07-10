@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/react.min.js" ></script>
+		<script type="text/javascript" src="js/react-dom.min.js" ></script>
+		<script type="text/javascript" src="js/browser.min.js" ></script>
+		<link rel="stylesheet" href="zhuce.css" />
+		<script type="text/javascript" src="js/zepto_1.1.3.js" ></script>
+		<script src="js/rem.js"></script>
+	</head>
+	<body>
+		<div id="out"></div>
+	</body>
+	<script type="text/babel">
+		
+		var Components=React.createClass({
+			
+		tap:function(){
+		$.ajax({	
+				type:'post',
+				url:'http://2.newb.applinzi.com/jsregister.php',
+				data:{"name":$("#ipt1").val(),"mima":$("#ipt2").val()},
+				success:function(data){
+					data=data.split("<script")[0]
+					console.log(data);
+					
+					if(data==0){
+ 	 	                alert("注册成功");
+ 	 	            window.location.href="denglu.html"
+ 	              }else if(data==1){
+ 	 	                 alert("用户已存在");
+ 	                }
+				},
+				error:function(){
+					console.log("失败")
+				}
+			})	
+		
+		},
+	
+	  render:function(){
+				return(
+				  <div id="div1">
+				  <header>实时新闻</header>
+				   <p>　账　号: <input type="text" id="ipt1" placeholder="请输入账号" /></p>
+				    <p>　密　码: <input type="password" id="ipt1" placeholder="请输入昵称" /></p>
+				   <p>确认密码: <input type="password" id="ipt2" placeholder="请输入密码"/></p>
+				 
+		      <p id="op0">
+		      	<input type="checkbox" id='ipt3' /> 已阅读并同意
+			</p>   
+				   
+			 <p id="op1">
+			  	  <a><input type="button" value="注册" id="btn" onClick={this.tap} /></a>
+			  	
+			  </p>	   
+				</div>
+				)
+			}
+		})
+	
+	ReactDOM.render(<Components/>,document.getElementById("out"))	
+		
+	</script>
+	
+</html>
